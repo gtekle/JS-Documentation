@@ -12,18 +12,26 @@
 #main-doc {
   padding-left: 20px;
 }
+
+nav header {
+  position: static;
+}
+
 .main-section header {
   font-size: 2rem;
   font-weight: 700;
 }
+
 .navbar {
   position: static;
 }
+
 .nav-wrapper {
   margin: 0;
   padding: 0;
   justify-self: start;
 }
+
 .nav-wrapper ul {
   display: flex;
   flex-direction: column;
@@ -31,6 +39,7 @@
   align-content: space-between;
   padding-left: 0;
 }
+
 .nav-wrapper li {
   list-style: none;
   margin: 5px 0;
@@ -39,11 +48,9 @@
 .nav-wrapper a {
   text-decoration: none;
 }
+
 .nav-wrapper hr {
   width: 100%;
-}
-nav header {
-  position: static;
 }
 
 @media screen and (min-width: 480px) {
@@ -60,19 +67,21 @@ nav header {
 
   .navbar {
     position: fixed;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
+    left: 0;
+    top: 0;
+    bottom: 0;
   }
 
   nav header {
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
   }
+
   nav .nav-wrapper {
     padding-top: 2rem;
   }
+
   .wrapper main {
     flex: 4;
   }

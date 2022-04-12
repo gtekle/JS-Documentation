@@ -18,8 +18,7 @@
 ## Getting Started
 
  To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+ 
 - Install text editor of your choice (eg. VS Code)
 - Clone the repository from [here](https://github.com/gtekle/JS-Documentation.git)
 - Open the index.html file in your browser to check your updates and navigate to other pages.
